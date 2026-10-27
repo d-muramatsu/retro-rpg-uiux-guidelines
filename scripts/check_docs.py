@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 d-muramatsu
+# SPDX-License-Identifier: MIT
 """Validate this repository's deliberately small Markdown convention; no network."""
 from pathlib import Path
 import re
@@ -5,7 +7,8 @@ import sys
 from urllib.parse import unquote, urlsplit
 
 REQUIRED = (
-    'README.md', 'CONTRIBUTING.md', 'LICENSE-STATUS.md',
+    'README.md', 'CONTRIBUTING.md', 'LICENSE-STATUS.md', 'LICENSE.md',
+    'LICENSES/CC-BY-4.0.txt', 'LICENSES/MIT.txt',
     'docs/principles.md', 'docs/navigation.md', 'docs/exploration-dialogue.md',
     'docs/battle.md', 'docs/inventory-progression.md', 'docs/save-state.md',
     'docs/accessibility-input.md', 'docs/extensions.md', 'docs/sources.md',

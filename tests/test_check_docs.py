@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 d-muramatsu
+# SPDX-License-Identifier: MIT
 """Regression fixtures ensure broken docs do not silently pass the checker."""
 from pathlib import Path
 import importlib.util
